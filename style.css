@@ -1,0 +1,23 @@
+body {
+    background-color: #F0F0F0;
+}
+.carousel-caption > p {
+    margin-right:20%;
+    margin-left:20%;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.carousel-indicators {
+    bottom: -5px;
+}
+
+.center-text {
+    text-align: center;
+}

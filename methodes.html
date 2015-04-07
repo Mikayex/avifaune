@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Inventaire avifaune de l'université de Poitiers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img height="30" src="images/icon.png" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Présentation</a></li>
+                        <li class="active"><a href="#">Méthode</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Résultats <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="2015.html">Janvier-mars 2015</a></li>
+                                <li><a href="2014.html">Janvier-mai 2014</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="bibliographie.html">Bibliographie</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h3>Méthode</h3>
+            <p>Les recensements se sont déroulés dans la zone B du campus 
+                Universitaire de Poitiers. Il s'agit d'un milieu semi-urbain 
+                comprenant des bâtiments et des espaces verts composés de pelouses, 
+                de haies et d'arbres de différentes essences (acacias, chênes, érables, 
+                peupliers, platanes, résineux, robiniers, tilleuls, trembles et autres 
+                feuillus représentés dans une moindre proportion). La carte ci-dessous 
+                montre une vue satellite de cette zone :
+            </p>
+            <div id="fig1">
+                <img class="img-responsive center-block img-rounded" src="images/zone B.png" alt="Zone B du campus Universitaire de Poitiers"/>
+                <p class="center-text text-muted"><i>Figure 1 : Zone B du campus Universitaire de Poitiers</i></p>
+            </div>
+            <p>Dans cette zone, les recensements sont faits selon le parcours présenté en <a href="#fig2">Figure 2</a>.</p>
+            <div id="fig2" class="center-block" style="max-width: 824px;">
+                <img class="img-responsive center-block img-rounded" src="images/chemin.png" alt="Parcours suivi pour les recensements"/>
+                <p class="center-text text-muted"><i>Figure 2 : Parcours suivi pour les recensements</i></p>
+            </div>
+            <p>Les comptages sont faits une fois par semaine, au lever du soleil
+                (pic d'activité vocale chez les oiseaux diurnes), par reconnaissance
+                visuelle et auditive. Trois paramètres principaux sont pris en compte : 
+                l'espèce, l'effectif et la localisation.</p>
+        </div>
+        <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    </body>
+</html>
