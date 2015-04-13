@@ -18,6 +18,10 @@ body {
     bottom: -5px;
 }
 
+p {
+    text-align: justify;
+}
+
 .center-text {
     text-align: center;
 }
